@@ -164,10 +164,23 @@ body {
     border: 3px solid var(--secondary-color);
     border-radius: 10px;
     transform: translate(-50%, -50%);
-    animation: slideInLeft 0.8s ease;
     z-index: 1;
+
+    opacity: 0;
+    animation: borderAppear 0.8s ease 0.4s forwards;
 }
 
+@keyframes borderAppear {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.92);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
 .hero-text {
     animation: slideInRight 0.8s ease;
 }
