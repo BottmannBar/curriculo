@@ -917,3 +917,10 @@ section {
         height: 330px;
     }
 }
+/* ========================================
+   SEÇÕES
+   ======================================== */
+.skills-button {
+    text-align: center;
+    margin-top: 40px;
+}
