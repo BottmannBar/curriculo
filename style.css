@@ -348,6 +348,7 @@ section {
     display: flex;
     justify-content: center;
     margin-top: 10px;
+    transform: translateY(-15px);
 }
 .skills-grid {
     display: grid;
