@@ -347,10 +347,6 @@ document.addEventListener('DOMContentLoaded', () => {
 // DOWNLOAD DE CURRÍCULO (FUNÇÃO AUXILIAR)
 // ========================================
 
-function downloadCurriculum() {
-    alert('Para adicionar download de currículo, adicione seu arquivo CV.pdf na pasta e atualize o link.');
-}
-
 // ========================================
 // EFEITOS ADICIONAIS
 // ========================================
