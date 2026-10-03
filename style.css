@@ -813,11 +813,10 @@ section {
 /* ========================================
    RESPONSIVE DESIGN
    ======================================== */
-@media (max-width: 768px) 
+@media (max-width: 768px){ 
 .nav-contact {
     display: none;
 }
-{
     .nav-menu {
         display: none;
         position: absolute;
