@@ -918,9 +918,10 @@ section {
     }
 }
 /* ========================================
-   SEÇÕES
+   levar para site com provas das hábilidades
    ======================================== */
 .skills-button {
-    text-align: center;
-    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
