@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio Executivo - Matheus Bottmann | Administrador, Analista Financeiro e Especialista em Processos">
+    <meta name="keywords" content="Administração, Finanças, Gestão Financeira, Análise de Dados, Tecnologia">
+    <meta name="author" content="Matheus Bottmann">
+    <title>Matheus Bottmann | Portfólio Executivo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+</head>
+<body>
+    <!-- NAVEGAÇÃO -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo">MB</div>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link">Início</a></li>
+                <li><a href="#about" class="nav-link">Sobre</a></li>
+                <li><a href="#skills" class="nav-link">Competências</a></li>
+                <li><a href="#dashboard" class="nav-link">Dashboard</a></li>
+                <li><a href="#experience" class="nav-link">Experiência</a></li>
+                <li><a href="#contact" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <div class="hero-image-container">
+                <img src="assets/matheus.jpg.jpeg" alt="Matheus Bottmann" class="hero-image">
+                <div class="image-border"></div>
+            </div>
+            <div class="hero-text">
+                <h1 class="hero-title">Matheus Bottmann</h1>
+                <p class="hero-subtitle">Administrador | Analista Financeiro | Especialista em Processos e Tecnologia</p>
+                <p class="hero-description">
+                    Profissional formado em Administração com experiência em gestão administrativa e financeira, controle de fluxo de caixa, planejamento financeiro, gestão de estoque, análise de dados e otimização de processos. Combino conhecimentos de negócios, tecnologia e automação para gerar resultados e eficiência operacional.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="window.open('#curriculum', '_blank')">📥 Baixar Currículo</button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('contact')">💬 Entrar em Contato</button>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- SOBRE MIM -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <p class="section-subtitle">Profissional com foco em gestão, análise e otimização de processos</p>
+            
+            <div class="about-content">
+                <p class="about-text">
+                    Com formação em Administração, tenho experiência sólida em gestão empresarial em contexto familiar. Minha trajetória combina conhecimento aprofundado em finanças, operações, tecnologia e automação. Sou especializado em transformar dados em insights estratégicos e processos complexos em soluções eficientes.
+                </p>
+            </div>
+
+            <div class="skills-cards">
+                <div class="skill-card">
+                    <div class="skill-icon">📊</div>
+                    <h3>Administração</h3>
+                    <p>Gestão operacional, administrativa e estratégica</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">💰</div>
+                    <h3>Finanças</h3>
+                    <p>Gestão financeira e planejamento estratégico</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📈</div>
+                    <h3>Excel Avançado</h3>
+                    <p>Análises, dashboards e automação de dados</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🔧</div>
+                    <h3>Tecnologia</h3>
+                    <p>Sistemas integrados e ferramentas digitais</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚡</div>
+                    <h3>Automação</h3>
+                    <p>Otimização de processos e workflows</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🎯</div>
+                    <h3>Gestão de Processos</h3>
+                    <p>Controle, melhoria e eficiência operacional</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COMPETÊNCIAS TÉCNICAS -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Competências Técnicas</h2>
+            <p class="section-subtitle">Níveis de proficiência em cada área</p>
+            
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Excel Avançado</span>
+                        <span class="skill-percentage">95%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 95%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Gestão Financeira</span>
+                        <span class="skill-percentage">95%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 95%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Fluxo de Caixa</span>
+                        <span class="skill-percentage">95%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 95%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Planejamento Financeiro</span>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 90%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Análise de Dados</span>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 90%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Controle de Estoque</span>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 90%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Tecnologia e Automação</span>
+                        <span class="skill-percentage">95%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 95%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Google Workspace</span>
+                        <span class="skill-percentage">95%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 95%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Resolução de Problemas</span>
+                        <span class="skill-percentage">95%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 95%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DASHBOARD EXECUTIVO -->
+    <section id="dashboard" class="dashboard">
+        <div class="container">
+            <h2 class="section-title">Dashboard Executivo</h2>
+            <p class="section-subtitle">Indicadores de desempenho e análises</p>
+            
+            <div class="kpis">
+                <div class="kpi-card">
+                    <div class="kpi-value">R$ 2.5M</div>
+                    <div class="kpi-label">Receita Total</div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-value">R$ 625K</div>
+                    <div class="kpi-label">Lucro Líquido</div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-value">25%</div>
+                    <div class="kpi-label">Margem Operacional</div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-value">98%</div>
+                    <div class="kpi-label">Eficiência de Estoque</div>
+                </div>
+            </div>
+
+            <div class="charts-grid">
+                <div class="chart-container">
+                    <h3 class="chart-title">Fluxo de Caixa Mensal</h3>
+                    <canvas id="cashFlowChart"></canvas>
+                </div>
+                <div class="chart-container">
+                    <h3 class="chart-title">Receitas x Despesas</h3>
+                    <canvas id="revenueExpenseChart"></canvas>
+                </div>
+                <div class="chart-container">
+                    <h3 class="chart-title">Distribuição de Custos</h3>
+                    <canvas id="costDistributionChart"></canvas>
+                </div>
+                <div class="chart-container">
+                    <h3 class="chart-title">Controle de Estoque</h3>
+                    <canvas id="inventoryChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIÊNCIA -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experiência Profissional</h2>
+            <p class="section-subtitle">Trajetória e responsabilidades</p>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Empresa Familiar</h3>
+                        <p class="timeline-period">Ongoing</p>
+                        <ul class="timeline-list">
+                            <li>Gerenciamento de fluxo de caixa e tesoraria</li>
+                            <li>Elaboração de orçamentos e previsões financeiras</li>
+                            <li>Gestão de estoque e controle de inventário</li>
+                            <li>Planejamento operacional e estratégico</li>
+                            <li>Controle administrativo e compliance</li>
+                            <li>Relatórios gerenciais e análises financeiras</li>
+                            <li>Atendimento e relacionamento com clientes e fornecedores</li>
+                            <li>Resolução de problemas operacionais</li>
+                            <li>Organização financeira e contábil</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DIFERENCIAIS -->
+    <section id="differentials" class="differentials">
+        <div class="container">
+            <h2 class="section-title">Diferenciais</h2>
+            <p class="section-subtitle">O que me destaca no mercado</p>
+            
+            <div class="differentials-grid">
+                <div class="differential-item">
+                    <div class="differential-icon">💡</div>
+                    <h3>Forte Conhecimento em Finanças</h3>
+                    <p>Expertise consolidada em gestão financeira e análise econômica</p>
+                </div>
+                <div class="differential-item">
+                    <div class="differential-icon">📊</div>
+                    <h3>Excel Avançado</h3>
+                    <p>Domínio completo de funções avançadas e criação de dashboards</p>
+                </div>
+                <div class="differential-item">
+                    <div class="differential-icon">💻</div>
+                    <h3>Habilidades Avançadas em Informática</h3>
+                    <p>Conhecimento técnico em sistemas e ferramentas digitais</p>
+                </div>
+                <div class="differential-item">
+                    <div class="differential-icon">🔍</div>
+                    <h3>Capacidade Analítica</h3>
+                    <p>Interpretação de dados e extração de insights estratégicos</p>
+                </div>
+                <div class="differential-item">
+                    <div class="differential-icon">⚡</div>
+                    <h3>Automação de Processos</h3>
+                    <p>Otimização de workflows e redução de atividades manuais</p>
+                </div>
+                <div class="differential-item">
+                    <div class="differential-icon">🚀</div>
+                    <h3>Facilidade com Tecnologia</h3>
+                    <p>Rápida adaptação e aprendizado de novas ferramentas</p>
+                </div>
+                <div class="differential-item">
+                    <div class="differential-icon">📋</div>
+                    <h3>Organização</h3>
+                    <p>Planejamento detalhado e gestão eficiente de projetos</p>
+                </div>
+                <div class="differential-item">
+                    <div class="differential-icon">📈</div>
+                    <h3>Decisões Baseadas em Dados</h3>
+                    <p>Abordagem estratégica alinhada com métricas concretas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COMPETÊNCIAS PESSOAIS -->
+    <section id="personal-skills" class="personal-skills">
+        <div class="container">
+            <h2 class="section-title">Competências Pessoais</h2>
+            <p class="section-subtitle">Atributos profissionais e pessoais</p>
+            
+            <div class="personal-skills-grid">
+                <div class="personal-skill">
+                    <h4>✓ Honestidade</h4>
+                    <p>Integridade e transparência em todas as ações</p>
+                </div>
+                <div class="personal-skill">
+                    <h4>✓ Persistência</h4>
+                    <p>Determinação para alcançar objetivos</p>
+                </div>
+                <div class="personal-skill">
+                    <h4>✓ Pontualidade</h4>
+                    <p>Cumprimento de prazos e compromissos</p>
+                </div>
+                <div class="personal-skill">
+                    <h4>✓ Comprometimento</h4>
+                    <p>Dedicação integral a projetos e metas</p>
+                </div>
+                <div class="personal-skill">
+                    <h4>✓ Responsabilidade</h4>
+                    <p>Autonomia e accountability total</p>
+                </div>
+                <div class="personal-skill">
+                    <h4>✓ Sociabilidade</h4>
+                    <p>Facilidade de relacionamento e comunicação</p>
+                </div>
+                <div class="personal-skill">
+                    <h4>✓ Proatividade</h4>
+                    <p>Antecipação de problemas e oportunidades</p>
+                </div>
+                <div class="personal-skill">
+                    <h4>✓ Organização</h4>
+                    <p>Metodologia e estrutura em todas as atividades</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <p class="section-subtitle">Vamos conversar sobre oportunidades</p>
+            
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Seu Nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Seu E-mail" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Sua Mensagem" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    </form>
+                </div>
+
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div>
+                            <h4>Telefone</h4>
+                            <p><a href="tel:+5541999410175">(41) 99941-0175</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <h4>E-mail</h4>
+                            <p><a href="mailto:bottmannbaer@gmail.com">bottmannbaer@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h4>Localização</h4>
+                            <p>Curitiba - PR</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div>
+                            <h4>Instagram</h4>
+                            <p><a href="https://instagram.com/matheusbottmann" target="_blank">@matheusbottmann</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Matheus Bottmann. Desenvolvido por Matheus Bottmann.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
