@@ -601,7 +601,11 @@ section {
 .personal-skills {
     background-color: var(--white);
 }
-
+.skills-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
 .personal-skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -917,11 +921,4 @@ section {
         height: 330px;
     }
 }
-/* ========================================
-   levar para site com provas das hábilidades
-   ======================================== */
-.skills-button {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-}
+
