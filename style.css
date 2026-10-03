@@ -344,7 +344,11 @@ section {
 .skills {
     background-color: var(--light-bg);
 }
-
+.skills-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -600,11 +604,6 @@ section {
    ======================================== */
 .personal-skills {
     background-color: var(--white);
-}
-.skills-button {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
 }
 .personal-skills-grid {
     display: grid;
