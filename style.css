@@ -813,7 +813,21 @@ section {
 /* ========================================
    RESPONSIVE DESIGN
    ======================================== */
-@media (max-width: 768px){ 
+@media (max-width: 768px) {
+
+    .nav-contact {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .nav-contact a {
+        width: 100%;
+        text-align: center;
+    }
 
     .nav-menu {
         display: none;
@@ -900,7 +914,6 @@ section {
         padding: 50px 20px;
     }
 }
-
 @media (max-width: 480px) {
     .hero-title {
         font-size: 2rem;
